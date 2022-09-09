@@ -14,7 +14,7 @@
 [rttms (many val)](./rttms/many.val.rttm)
 
 ## Wavs
-[Download (8.1 GB)](https://msdwilddb.s3.amazonaws.com/wav.zip)
+[Download (8.1 GB)](https://pan.baidu.com/s/1DHIOUEuQpqJ5z9voaDBZwQ?pwd=mbc2) password: mbc2 
 
 md5: 0057f82daaddf2ce993d1bf0679929c4
 
