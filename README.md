@@ -29,4 +29,13 @@ The video part includes cropped videos and corresponding talking faces. If you w
 
 ## Reference
 
-Citation format coming soon
+```
+@inproceedings{liu22t_interspeech,
+  author={Tao Liu and Shuai Fan and Xu Xiang and Hongbo Song and Shaoxiong Lin and Jiaqi Sun and Tianyuan Han and Siyuan Chen and Binwei Yao and Sen Liu and Yifei Wu and Yanmin Qian and Kai Yu},
+  title={{MSDWild: Multi-modal Speaker Diarization Dataset in the Wild}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1476--1480},
+  doi={10.21437/Interspeech.2022-10466}
+}
+```
