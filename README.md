@@ -4,6 +4,8 @@
 
 [Demo](https://x-lance.github.io/MSDWILD)
 
+![](imgs/metrics.png)
+
 ## Labels
 [rttms (all)](./rttms/all.rttm)
 
@@ -26,6 +28,22 @@ The video part includes cropped videos and corresponding talking faces. If you w
 
 * The database is **ONLY** for research purposes. 
 * The copyright of the video belongs to the original author, if you have any questions, please contact us ([email](mailto:msdwild@163.com)).
+
+
+## Baseline Code
+
+Codes will be released, but there is no timeline for this. We think you can easily reproduce the result by the following guide.
+
+Audio-only baseline are based on [Pyannote](https://github.com/pyannote/pyannote-audio). You can directly use [Hugging Face Edition](https://huggingface.co/pyannote/speaker-diarization).
+
+Multi-modal baseline are based on [TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) for audio-visual realtion and [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition) for face clustering. 
+
+
+If you have any other questions, feel free to contact [Tao Liu](mailto:liutaw@sjtu.edu.cn).
+
+## Baseline Result
+
+![](imgs/baseline_results.png)
 
 ## Reference
 
