@@ -1,10 +1,12 @@
 # MSDWild Dataset
 
-> MSDWILD: MULTI-MODAL SPEAKER DIARIZATION DATASET IN THE WILD 
+> MSDWILD: MULTI-MODAL SPEAKER DIARIZATION DATASET IN THE WILD
+
 
 [Demo](https://x-lance.github.io/MSDWILD)
 
 ![](imgs/metrics.png)
+This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.
 
 ## Labels
 [rttms (all)](./rttms/all.rttm)
