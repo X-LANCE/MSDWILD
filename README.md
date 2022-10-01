@@ -22,6 +22,13 @@ This dataset is designed for multi-modal speaker diarization and lip-speech sync
 
 md5: 0057f82daaddf2ce993d1bf0679929c4
 
+Or you can download from the following link for faster speed:
+
+```
+https://msdwild.oss-us-west-1.aliyuncs.com/zip_splits/msdwild_wavs.z01
+https://msdwild.oss-us-west-1.aliyuncs.com/zip_splits/msdwild_wavs.zip
+```
+
 ## Video part
 
 The video part includes cropped videos and corresponding talking faces. If you want to use this part, [a license agreement](MSDWILD_license_agreement.pdf) must first be signed (no students) and sent to [Administration](mailto:msdwild@163.com).
