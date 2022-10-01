@@ -25,8 +25,8 @@ md5: 0057f82daaddf2ce993d1bf0679929c4
 Or you can download from the following link for faster speed:
 
 ```
-https://msdwild.oss-us-west-1.aliyuncs.com/zip_splits/msdwild_wavs.z01
-https://msdwild.oss-us-west-1.aliyuncs.com/zip_splits/msdwild_wavs.zip
+http://110.42.223.94:8080/d/resourses/msdwild/audios/msdwild_wavs.z01
+http://110.42.223.94:8080/d/resourses/msdwild/audios/msdwild_wavs.zip
 ```
 
 ## Video part
