@@ -25,8 +25,7 @@ md5: 0057f82daaddf2ce993d1bf0679929c4
 Or you can download from the following link for faster speed:
 
 ```
-http://110.42.223.94:8080/d/resourses/msdwild/audios/msdwild_wavs.z01
-http://110.42.223.94:8080/d/resourses/msdwild/audios/msdwild_wavs.zip
+We will provide Google Drive download link soon
 ```
 
 ## Video part
