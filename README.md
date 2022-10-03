@@ -32,6 +32,7 @@ The video part includes cropped videos and corresponding talking faces. If you w
 
 * The database is **ONLY** for research purposes. 
 * The copyright of the video belongs to the original author, if you have any questions, please contact us ([email](mailto:msdwild@163.com)).
+* You will get response in a week (Emails are sometimes undeliverable. If you do not receive our message, please contact us again.)
 
 
 ## Baseline Code
