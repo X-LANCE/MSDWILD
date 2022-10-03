@@ -18,15 +18,11 @@ This dataset is designed for multi-modal speaker diarization and lip-speech sync
 [rttms (many val)](./rttms/many.val.rttm)
 
 ## Wavs
-[Download (8.1 GB)](https://pan.baidu.com/s/1DHIOUEuQpqJ5z9voaDBZwQ?pwd=mbc2) password: mbc2 
+- From Baidu Disk [ Download (8.1 GB)](https://pan.baidu.com/s/1DHIOUEuQpqJ5z9voaDBZwQ?pwd=mbc2) 
+
+- From Google Drive [ Download (8.1 GB)](https://drive.google.com/file/d/1I5qfuPPGBM9keJKz0VN-OYEeRMJ7dgpl)
 
 md5: 0057f82daaddf2ce993d1bf0679929c4
-
-Or you can download from the following link for faster speed:
-
-```
-We will provide Google Drive download link soon
-```
 
 ## Video part
 
