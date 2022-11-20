@@ -41,11 +41,12 @@ The video part includes ``cropped videos`` and corresponding talking faces: ``mp
 
 You can easily reproduce the result by the following guide.
 
-- **Audio-only** baseline are based on [Pyannote](https://github.com/pyannote/pyannote-audio). You can directly use [Hugging Face Edition](https://huggingface.co/pyannote/speaker-diarization). (Experiments are conducted on ``094717b6`` and its hugging face ``3602c22f``)
+- **Audio-only** baseline are based on [Pyannote](https://github.com/pyannote/pyannote-audio). You can directly use [Hugging Face Edition](https://huggingface.co/pyannote/speaker-diarization). (Experiments are conducted on Pyannote ``094717b6`` and its hugging face ``3602c22f``)
 
-- **Multi-modal** baseline are based on [TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) (Pretrained models (``msdwild.pretrained.model``) on our dataset can be downloaded from [URL](https://drive.google.com/file/d/1CdK3gRcs2pMaWB2s3X1n_0LuX6ZfQAE0)) for audio-visual realtion and [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition) for face clustering. 
+- **Multi-modal** baseline are based on [TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) (Pretrained models: ``msdwild.pretrained.model`` on our dataset can be downloaded from [URL](https://drive.google.com/file/d/1CdK3gRcs2pMaWB2s3X1n_0LuX6ZfQAE0)) for audio-visual realtion and [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition) for face clustering. 
     - Please add face recognition to the pipeline of [demoTalkNet.py](https://github.com/TaoRuijie/TalkNet-ASD/blob/main/demoTalkNet.py).
     - Search a best threshold from ``-0.5`` to ``0.5``.
+    - If the prediction threshold is large than the best threshold, mark the corresponding frame as the active state (The minimal continuous frame is ``3``).
     - Convert the result to RTTM. 
 
 No other post-precessing methods are used.
