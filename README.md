@@ -5,7 +5,9 @@
 
 [Demo](https://x-lance.github.io/MSDWILD)
 
-![](imgs/metrics.png)
+<img src='imgs/metrics.png' width=70% />
+
+
 This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.
 
 ## Labels
@@ -26,29 +28,28 @@ md5: 0057f82daaddf2ce993d1bf0679929c4
 
 ## Video part
 
-The video part includes cropped videos and corresponding talking faces. If you want to use this part, [a license agreement](MSDWILD_license_agreement.pdf) must first be signed (no students) and sent to [Administration](mailto:msdwild@163.com).
+The video part includes ``cropped videos`` and corresponding talking faces: ``mp4s``. If you want to use this part, [a license agreement](MSDWILD_license_agreement.pdf) must first be signed and sent to [Administration](mailto:msdwild@163.com) with your **institutional** account.
 
 **Note**:
 
 * The database is **ONLY** for research purposes. 
 * The copyright of the video belongs to the original author, if you have any questions, please contact us ([email](mailto:msdwild@163.com)).
-* You will get response in a week (Emails are sometimes undeliverable. If you do not receive our message, please contact us again.)
+* You will get response in a week. (Usually in three days. Emails are sometimes undeliverable. If you do not receive our message, please contact us again.)
 
 
 ## Baseline Code
 
-Codes will be released, but there is no timeline for this. We think you can easily reproduce the result by the following guide.
+You can easily reproduce the result by the following guide.
 
-Audio-only baseline are based on [Pyannote](https://github.com/pyannote/pyannote-audio). You can directly use [Hugging Face Edition](https://huggingface.co/pyannote/speaker-diarization).
+- **Audio-only** baseline are based on [Pyannote](https://github.com/pyannote/pyannote-audio). You can directly use [Hugging Face Edition](https://huggingface.co/pyannote/speaker-diarization). (Experiments are conducted on ``094717b6`` and its hugging face ``3602c22f``)
 
-Multi-modal baseline are based on [TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) for audio-visual realtion and [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition) for face clustering. 
+- **Multi-modal** baseline are based on [TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) (Pretrained models on our dataset is [URL](./pretrained_models/msdwild.pretrained.model)) for audio-visual realtion and [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition) for face clustering. 
 
-
-If you have any other questions, feel free to contact [Tao Liu](mailto:liutaw@sjtu.edu.cn).
 
 ## Baseline Result
 
-![](imgs/baseline_results.png)
+<img src='imgs/baseline_results.png' width=70% />
+
 
 ## Reference
 
