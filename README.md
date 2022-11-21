@@ -49,7 +49,7 @@ You can easily reproduce the result by the following guide.
     - If the prediction threshold is large than the best threshold, mark the corresponding frame as the active state (The minimal continuous frame is ``3``).
     - Convert the result to RTTM. 
 
-No other post-precessing methods are used.
+No other post-processing methods are used.
 
 
 ## Baseline Result
