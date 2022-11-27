@@ -2,13 +2,18 @@
 
 > MSDWILD: MULTI-MODAL SPEAKER DIARIZATION DATASET IN THE WILD
 
+This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.
 
 [Demo](https://x-lance.github.io/MSDWILD)
 
+## Dataset Statistics
 <img src='imgs/metrics.png' width=70% />
 
+## Dataset Comparison
+<img src='imgs/percentile_chart.png' width=70% />
 
-This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.
+Compared with other multi-modal datasets, the segment length distribution of our dataset is close to the audio-only in-the-wild diarization dataset, e.g., CALLHOME or DIHARD2.
+
 
 ## Labels
 [rttms (all)](./rttms/all.rttm)
