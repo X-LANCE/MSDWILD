@@ -25,21 +25,47 @@ Compared with other multi-modal datasets, the segment length distribution of our
 [rttms (many val)](./rttms/many.val.rttm)
 
 ## Wavs
-- From Baidu Disk [ Download (8.1 GB)](https://pan.baidu.com/s/1DHIOUEuQpqJ5z9voaDBZwQ?pwd=mbc2) 
 
-- From Google Drive [ Download (8.1 GB)](https://drive.google.com/file/d/1I5qfuPPGBM9keJKz0VN-OYEeRMJ7dgpl)
+-  [ Google Drive (7.56 GB)](https://drive.google.com/file/d/1I5qfuPPGBM9keJKz0VN-OYEeRMJ7dgpl)
 
 md5: 0057f82daaddf2ce993d1bf0679929c4
 
 ## Video part
 
-The video part includes ``cropped videos`` and corresponding talking faces: ``mp4s``. If you want to use this part, [a license agreement](MSDWILD_license_agreement.pdf) must first be signed and sent to [Administration](mailto:msdwild@163.com) with your **institutional** account.
+- [Raw Videos (Google Drive, 43.14 GB)](https://drive.google.com/file/d/1fGYcJvqCEikZpwDq_84q4Pau5qO5Was1)
+
+The video file name corresponds to the audio file name.
+
+- [Cropped faces (Google Drive, 14.49 GB)](https://drive.google.com/file/d/1poGOdkXway5MkQEGWTtM9U7TegLSOw54)
+
+
+(For Chinese users, you can use [Baidu Link](https://pan.baidu.com/s/1hnrSKVDD9QS1bUnx4lV-Zg?pwd=t5t9) for faster downloading speech. )
+
+
+Our multimodal speaker diarization baseline includes a subtask - active speaker detection. To train the active speaker detection algorithm ([TalkNet](https://github.com/TaoRuijie/TalkNet-ASD)  mentioned in our paper), we utilize 'cropped faces.' These are randomly generated from videos based on video content and rttm labels, and subsequently, manually rectified. However, if you choose not to use these resources, you can ignore the 'cropped faces.'
+
+There are four categories of cropped-face videos:
+
+- NS_segmentid: The cropped face does not speak throughout the video.
+
+- SPK_segmentid: The cropped face speaks throughout the video.
+
+- TURN_segmentid_01_starttime_turntime_endtime: The cropped face does not speak from start_time to turn_time but starts speaking from turn_time to end_time.
+
+- TURN_segmentid_10_starttime_turntime_endtime: The cropped face speaks from start_time to turn_time but does not speak from turn_time to end_time.
+
+Time is denoted in seconds format, and Segment_id corresponds to the cropped face video id within each video folder.
+
+
+
+**[Updates]** Please disregard files with negative filenames (approximately 90 files).
+
+
 
 **Note**:
 
 * The database is **ONLY** for research purposes. 
-* The copyright of the video belongs to the original author, if you have any questions, please contact us ([email](mailto:msdwild@163.com)).
-* You will get response in a week. (Usually in three days. Emails are sometimes undeliverable. If you do not receive our message, please contact us again.)
+* In response to community requests, we have uploaded a video.zip file due to some videos no longer being available online. This is to facilitate better replication of our work within the research community. These videos are solely for this purpose and must not be used otherwise. All usage must be in line with our [licensing agreement]((MSDWILD_license_agreement.pdf)). It's important to note that these materials may be removed at any time upon request from the original video owner.
 
 
 ## Baseline Code
