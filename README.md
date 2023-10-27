@@ -65,7 +65,7 @@ Time is denoted in seconds format, and Segment_id corresponds to the cropped fac
 **Note**:
 
 * The database is **ONLY** for research purposes. 
-* In response to community requests, we have uploaded a video.zip file due to some videos no longer being available online. This is to facilitate better replication of our work within the research community. These videos are solely for this purpose and must not be used otherwise. All usage must be in line with our [licensing agreement]((MSDWILD_license_agreement.pdf)). It's important to note that these materials may be removed at any time upon request from the original video owner.
+* In response to community requests, we have uploaded a video.zip file due to some videos no longer being available online. This is to facilitate better replication of our work within the research community. These videos are solely for this purpose and must not be used otherwise. All usage must be in line with our [licensing agreement](MSDWILD_license_agreement.pdf). It's important to note that these materials may be removed at any time upon request from the original video owner.
 
 
 ## Baseline Code
