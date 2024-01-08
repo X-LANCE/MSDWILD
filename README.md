@@ -2,9 +2,9 @@
 
 > MSDWILD: MULTI-MODAL SPEAKER DIARIZATION DATASET IN THE WILD
 
-This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild.
+This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild. [Demo](https://x-lance.github.io/MSDWILD)
 
-[Demo](https://x-lance.github.io/MSDWILD)
+* [2024/01/08 Updates] We have updated the IDs of the face bounding boxes as well as their positions in each frame.
 
 ## Dataset Statistics
 <img src='imgs/metrics.png' width=70% />
@@ -62,10 +62,44 @@ Time is denoted in seconds format, and Segment_id corresponds to the cropped fac
 
 
 
-**Note**:
+**Notes**:
 
 * The database is **ONLY** for research purposes. 
 * In response to community requests, we have uploaded a video.zip file due to some videos no longer being available online. This is to facilitate better replication of our work within the research community. These videos are solely for this purpose and must not be used otherwise. All usage must be in line with our [licensing agreement](MSDWILD_license_agreement.pdf). It's important to note that these materials may be removed at any time upon request from the original video owner.
+
+
+## Face id with Bounding Boxes
+
+We have added additional **bounding boxes** for every facial image across the frames. Our trained annotators has reviewed the facial annotations on each frame to guarantee accuracy — no faces have been ignored or incorrectly tagged. Moreover, they have realigned any improperly positioned face bounding boxes. The refined annotations have been systematically archived in a correspondingly named directory, with the data structured in CSV files as outlined below. [One Sample](https://drive.google.com/file/d/106yqmxF0yfimexCsDxufeTIb3JeUKL-c)
+
+```
+CSV line: 3363,face,1,398,129,479,244,0
+
+Description: frame id, face(fixed), face_id, x1, y1, x2, y2, 0(fixed)
+```
+
+
+
+ [Full Data Downloading URL (uploading)](#)
+ 
+ ### Preview Usage
+ 
+<img src='imgs/boundingbox1.jpg' width=70% />
+
+Clik `DarkLabel.exe` and select `one video file` to preview.
+
+<img src='imgs/boundingbox2.jpg' width=70% />
+
+Move the `slider` to preview the positions and ID information of faces on different frames, while trying not to alter any other default settings
+
+**Notes**:
+
+* The aforementioned video files have been standardized to a frame rate of 25 frames per second (fps), while the [original](https://drive.google.com/file/d/1fGYcJvqCEikZpwDq_84q4Pau5qO5Was1) frame rate may have varied.
+* [DarkLabel](https://github.com/darkpgmr/DarkLabel) can be used for labelling or preview here. You can also use other tools.
+* DarkLabel only supports Windows currently and you may use [wine](https://github.com/darkpgmr/DarkLabel/issues/4) to run on Mac or Linux (Not tested).
+* The result can not directly converted to exactly the same [RTTM](./rttms/all.rttm) as some duration or face ids are adjusted and off-screen speech is not included here.
+* The facial identification in each video is unique and differs from the identifiers found in [RTTM](./rttms/all.rttm).
+* I suggest that this is merely supplementary material for this dataset. Possible future work we envision includes training an end-to-end multimodal speaker diarization that incorporates facial location information, and an evaluation method for a multimodal speaker diarization that takes into account the human face location.
 
 
 ## Baseline Code
