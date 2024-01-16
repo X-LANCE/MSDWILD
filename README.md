@@ -38,7 +38,7 @@ The video file name corresponds to the audio file name.
 
 - [Cropped faces (Google Drive, 14.49 GB)](https://drive.google.com/file/d/1poGOdkXway5MkQEGWTtM9U7TegLSOw54)
 
-(For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1hnrSKVDD9QS1bUnx4lV-Zg?pwd=t5t9) to speed up downloads. )
+(For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1hnrSKVDD9QS1bUnx4lV-Zg?pwd=t5t9) or [Quark Drive](https://pan.quark.cn/s/7d6332d177b9) (5v8a)) to speed up downloads. )
 
 
 Our multimodal speaker diarization baseline includes a subtask - active speaker detection. To train the active speaker detection algorithm ([TalkNet](https://github.com/TaoRuijie/TalkNet-ASD)  mentioned in our paper), we utilize 'cropped faces.' These are randomly generated from videos based on video content and rttm labels, and subsequently, manually rectified. However, if you choose not to use these resources, you can ignore the 'cropped faces.'
@@ -78,7 +78,7 @@ Description: frame id, face (fixed), face_id, x1, y1, x2, y2, 0 (fixed)
 
 Download Link : [Google Drive (uploading, please wait 2-3 days)](#)
 
-(For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb) to speed up downloads. )
+(For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb) or [Quark Drive](https://pan.quark.cn/s/7d6332d177b9) (5v8a)) to speed up downloads. )
 
  ### How to Preview Annotations
  
