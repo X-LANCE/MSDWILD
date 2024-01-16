@@ -4,7 +4,7 @@
 
 This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild. [Demo](https://x-lance.github.io/MSDWILD)
 
-* [2024/01/08 Updates] The new frame-by-frame face bounding boxes and their positions in each frame have been uploaded as supplementary materials for our dataset. [Jump to Here](#videos-with-frame-by-frame-face-position-annotation).
+* [2024/01/08 Updates] The new frame-by-frame face bounding boxes and their positions in each frame have been uploaded as supplementary materials for our dataset. [-> Jump <-](#videos-with-frame-by-frame-face-position-annotation).
 
 ## Dataset Statistics
 <img src='imgs/metrics.png' width=70% />
@@ -97,6 +97,7 @@ Move the `slider` to preview the positions and ID information of faces on differ
 * `DarkLabel` only supports Windows (Win10 or Win11) currently and you may use wine (mentioned in this [issue](https://github.com/darkpgmr/DarkLabel/issues/4)) to run on Mac or Linux.
 * The result can `not` directly converted to exactly the same [RTTM](./rttms/all.rttm) as some duration or face ids are adjusted and off-screen speech is not included in this part. By the way, the facial identification in each video is unique and also differs from the identifiers in [RTTM](./rttms/all.rttm) mentioned above.
 * Different from the above-mentioned cropped face, the annotation here is for the bounding box of the unprocessed face in the original video.
+* Why are we releasing it now? Our initial experiments were conducted using a training set based on cropped faces. However, we realized that facial tagging is extremely important for multi-modal speaker diarization. Consequently, following the publication of our work, we decided to embark on a frame-by-frame review process. The undertaking is massive, involving the inspection of approximately 120,000 video frames, and ensuring that the IDs remain consistent throughout the video. We also conducted a second round of checks for added accuracy.  It is only after this meticulous process that we are now able to release the dataset for public use.
 * I suggest that this is merely supplementary material for this dataset. Possible future work we envision includes training an end-to-end multimodal speaker diarization that incorporates facial location information, and an evaluation method for a multimodal speaker diarization that takes into account the human face location.
 
 
@@ -121,7 +122,7 @@ No other post-processing methods are used.
 
 ## Analysis Result
 
-You can refer to [URL](https://github.com/liutaocode/DiarizationVisualization) to visualize the dataset or your algorithm result.
+You can refer to [URL](https://github.com/liutaocode/DiarizationVisualization) to visualize the dataset based on your algorithm result.
 
 <img src='imgs/via_example.png' width=70% />
 
