@@ -4,7 +4,7 @@
 
 This dataset is designed for multi-modal speaker diarization and lip-speech synchronization in the wild. [Demo](https://x-lance.github.io/MSDWILD)
 
-* [2024/01/08 Updates] We have updated the IDs of the face bounding boxes as well as their positions in each frame.
+* [2024/01/08 Updates] The new frame-by-frame face bounding boxes and their positions in each frame have been uploaded as supplementary materials for our dataset. [Jump to Here](#videos-with-frame-by-frame-face-position-annotation).
 
 ## Dataset Statistics
 <img src='imgs/metrics.png' width=70% />
@@ -65,7 +65,8 @@ Time is denoted in seconds format, and Segment_id corresponds to the cropped fac
 * In response to community requests, we have uploaded a video.zip file due to some videos no longer being available online. This is to facilitate better replication of our work within the research community. These videos are solely for this purpose and must not be used otherwise. All usage must be in line with our [licensing agreement](MSDWILD_license_agreement.pdf). It's important to note that these materials may be removed at any time upon request from the original video owner.
 
 
-## Videos with frame-by-frame face position annotation 
+## Videos with frame-by-frame face position annotation
+
 
 We have added additional **bounding boxes** for every facial image across the frames. Our trained annotators has reviewed the facial annotations on each frame to guarantee accuracy — no faces have been ignored or incorrectly tagged. Moreover, they have realigned any improperly positioned face bounding boxes. The refined annotations have been systematically archived in a correspondingly named directory, with the data structured in CSV files as outlined below. [One Sample](https://drive.google.com/file/d/106yqmxF0yfimexCsDxufeTIb3JeUKL-c)
 
