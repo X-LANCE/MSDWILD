@@ -76,7 +76,7 @@ CSV line: 3363,face,1,398,129,479,244,0
 Description: frame id, face (fixed), face_id, x1, y1, x2, y2, 0 (fixed)
 ```
 
-Download Link : [Google Drive (uploading, please wait 2-3 days)](#)
+Download Link : [Google Drive](https://drive.google.com/file/d/1--rqm3AKjOI9q_iNgVUD_eC2u1m4OQHW)
 
 (For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb) or [Quark Drive](https://pan.quark.cn/s/7d6332d177b9) (5v8a)) to speed up downloads. )
 
@@ -97,8 +97,8 @@ Move the `slider` to preview the positions and ID information of faces on differ
 * `DarkLabel` only supports Windows (Win10 or Win11) currently and you may use wine (mentioned in this [issue](https://github.com/darkpgmr/DarkLabel/issues/4)) to run on Mac or Linux.
 * The result can `not` directly converted to exactly the same [RTTM](./rttms/all.rttm) as some duration or face ids are adjusted and off-screen speech is not included in this part. By the way, the facial identification in each video is unique and also differs from the identifiers in [RTTM](./rttms/all.rttm) mentioned above.
 * Different from the above-mentioned cropped face, the annotation here is for the bounding box of the unprocessed face in the original video.
-* Why are we releasing it now? Our initial experiments were conducted using a training set based on cropped faces. However, we realized that facial tagging is extremely important for multi-modal speaker diarization. Consequently, following the publication of our work, we decided to embark on a frame-by-frame review process. The undertaking is massive, involving the inspection of approximately 120,000 video frames, and ensuring that the IDs remain consistent throughout the video. We also conducted a second round of checks for added accuracy.  It is only after this meticulous process that we are now able to release the dataset for public use.
-* I suggest that this is merely supplementary material for this dataset. Possible future work we envision includes training an end-to-end multimodal speaker diarization that incorporates facial location information, and an evaluation method for a multimodal speaker diarization that takes into account the human face location.
+* **Why are we releasing it now?** Our initial experiments were conducted using a training set based on cropped faces. However, we realized that facial tagging is extremely important for multi-modal speaker diarization. Consequently, following the publication of our work, we decided to embark on a frame-by-frame review process. The undertaking is massive, involving the inspection of approximately 120,000 video frames, and ensuring that the IDs remain consistent throughout the video. We also conducted a second round of checks for added accuracy.  It is only after this meticulous process that we are now able to release the dataset for public use.
+* I suggest that this is merely **supplementary** material for this dataset. Possible future work we envision includes training an end-to-end multimodal speaker diarization that incorporates facial location information, and an evaluation method for a multimodal speaker diarization that takes into account the human face location.
 
 
 ## Baseline Code
