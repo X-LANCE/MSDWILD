@@ -15,7 +15,7 @@ The content of the folder is like : `00001.csv`, `00001.mp4`,....
     Google Drive： https://drive.google.com/file/d/1--rqm3AKjOI9q_iNgVUD_eC2u1m4OQHW
 
     Baidu Drive: https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb
-    
+
     Quark Drive: https://pan.quark.cn/s/7d6332d177b9, password:5v8a
 </details>
 
@@ -26,10 +26,14 @@ To generate:
 python convert_to_mp4_with_faces.py
 ```
 
+Args:
+
 * rttm_per_file: RTTM files for each individual file
 * original_mp4_files: Original video files and Darklabel csv files.
 * mp4_files_with_faces: Videos with visualized faces (including face ID and bounding boxes)
 * json_per_file: Visualization output (JSON files) by [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/)
+
+You can keep them at their default values.
 
 ## Preview
 Open `via_video_annotator_3.0.11.html` and import an individual JSON file from the `json_per_file` directory.
