@@ -14,9 +14,9 @@ The content of the folder is like : `00001.csv`, `00001.mp4`,....
 
 <details>
     <summary>Download URL</summary>
-    Download Link : [Google Drive](https://drive.google.com/file/d/1--rqm3AKjOI9q_iNgVUD_eC2u1m4OQHW)
-
-    (For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb) or [Quark Drive](https://pan.quark.cn/s/7d6332d177b9) (5v8a)) to speed up downloads. )
+    Google Drive： https://drive.google.com/file/d/1--rqm3AKjOI9q_iNgVUD_eC2u1m4OQHW
+    Baidu Drive: https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb
+    Quark Drive: https://pan.quark.cn/s/7d6332d177b9, password:5v8a
 </details>
 
 
