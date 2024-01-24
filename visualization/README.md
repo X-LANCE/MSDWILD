@@ -1,10 +1,8 @@
 # Visualization
 The purpose of this document is to explain how to visualize the location of faces and the corresponding audio files.
 
-* rttm_per_file: RTTM files for each individual file
-* original_mp4_files: Original video files and Darklabel csv files.
-* mp4_files_with_faces: Videos with visualized faces (including face ID and bounding boxes)
-* json_per_file: Visualization JSON files by [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/)
+
+The main process of visualization involves converting CSV facial data and RTTM duration information into a JSON file supported by the VIA (VGG Image Annotator) tool. Due to the constraints of the annotation tool, it's important to note that the JSON file contains absolute paths, which means that it is necessary to regenerate the JSON file each time when switching to a different machine.
 
 ## Download
 
@@ -25,6 +23,11 @@ To generate:
 ```
 python convert_to_mp4_with_faces.py
 ```
+
+* rttm_per_file: RTTM files for each individual file
+* original_mp4_files: Original video files and Darklabel csv files.
+* mp4_files_with_faces: Videos with visualized faces (including face ID and bounding boxes)
+* json_per_file: Visualization output (JSON files) by [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/)
 
 ## Preview
 Open `via_video_annotator_3.0.11.html` and import an individual JSON file from the `json_per_file` directory.
