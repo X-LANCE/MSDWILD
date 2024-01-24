@@ -90,6 +90,8 @@ Clik `DarkLabel.exe` and select `one video file` to preview.
 
 Move the `slider` to preview the positions and ID information of faces on different frames, not altering any other default settings.
 
+[Update] You can also use this [Link](https://github.com/X-LANCE/MSDWILD/tree/master/visualization) to visualize the relationship between the audio label and the visual label.
+
 **Notes**:
 
 * The aforementioned video files have been standardized to a frame rate of 25 frames per second (fps), while the [original](https://drive.google.com/file/d/1fGYcJvqCEikZpwDq_84q4Pau5qO5Was1) frame rate may have varied.
