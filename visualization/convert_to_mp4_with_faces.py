@@ -3,9 +3,9 @@ import cv2
 import pandas as pd
 
 
-original_mp4_file_path = 'original_mp4_files'
+original_mp4_file_path = 'RELEASED_dark_labels'
 mp4_files_with_faces = 'mp4_files_with_faces'
-csv_per_file_path = 'csv_per_file' # 0,face,0,725,181,795,276,0
+csv_per_file_path = 'RELEASED_dark_labels' # 0,face,0,725,181,795,276,0
 
 for file_name in os.listdir(original_mp4_file_path):
     if not file_name.endswith('mp4'):

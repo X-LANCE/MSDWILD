@@ -2,10 +2,23 @@
 The purpose of this document is to explain how to visualize the location of faces and the corresponding audio files.
 
 * rttm_per_file: RTTM files for each individual file
-* original_mp4_files: Original video files, specifically from the RELEASED_dark_labels directory
+* original_mp4_files: Original video files and Darklabel csv files.
 * mp4_files_with_faces: Videos with visualized faces (including face ID and bounding boxes)
-* csv_per_file: Darklabel tags
-* json_per_file: Visualization JSON files
+* json_per_file: Visualization JSON files by [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/)
+
+## Download
+
+Please download and unzip the files to the default path: `RELEASED_dark_labels`.
+
+The content of the folder is like : `00001.csv`, `00001.mp4`,....
+
+<details>
+    <summary>Download URL</summary>
+    Download Link : [Google Drive](https://drive.google.com/file/d/1--rqm3AKjOI9q_iNgVUD_eC2u1m4OQHW)
+
+    (For Chinese researchers, you can use [Baidu Drive](https://pan.baidu.com/s/1YpLMdCAcV0eG8fHmYf_lkw?pwd=msdb) or [Quark Drive](https://pan.quark.cn/s/7d6332d177b9) (5v8a)) to speed up downloads. )
+</details>
+
 
 ## Steps
 To generate:
@@ -19,5 +32,7 @@ Open `via_video_annotator_3.0.11.html` and import an individual JSON file from t
 ## Sample Image
 
 ![](one_sample.png)
+
+The audio ID is the same as the Face ID, starting from zero. The off-screen voice still starts with an "h" prefix, and the content of the RTTM file is consistent with that of the homepage.
 
 For further reference, see: [DiarizationVisualization](https://github.com/liutaocode/DiarizationVisualization)
